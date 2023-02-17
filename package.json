@@ -1,7 +1,8 @@
 {
   "name": "@bk/sum",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A react component that sum two numbers.",
+  "repository": "git@github.com:Beking0912/react-typescript-rollup-starter.git",
   "main": "lib/bundle.cjs.js",
   "module": "lib/bundle.esm.js",
   "browser": "lib/bundle.browser.js",
