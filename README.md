@@ -1,45 +1,22 @@
-**See related blog here: [Publish React npm Package with Rollup](https://beking0912.github.io/2023/02/06/Quickstart-with-Rollup/)**
+# React Typescript Rollup Starter
+**👉👉👉 View the detailed tutorial here: [Publish React npm Package with Rollup](https://beking0912.github.io/2023/02/06/Quickstart-with-Rollup/)**
 
-## How to use
-```bash
-npm i bk-sum
-```
+This is a starter kit for building and publishing a TypeScript React project using Rollup.js. The kit includes configuration files and an example project structure for bundling and publishing your code as an npm package.
 
-```js
-import { Sum } from '@bk/sum'
+## Features
+- **Ready-to-use configuration** files for Rollup.js, TypeScript and React.
+- Supports bundling and publishing code as an npm package.
+- Includes an example project structure for easy reference.
 
-<Sum a={2} b={3}/>
-```
+## Getting Started
+1. Clone or download the project to your local machine.
+2. Install the necessary dependencies by running `npm install`.
+3. Write your TypeScript React code in the src/ directory.
+4. Build your code for production by running `npm run build`.
+5. Test your package locally by running `npm link` and `npm run start`.
+6. Publish your package to npm by running `npm publish`.
 
-## build
-```bash
-npm run build
-npm run build:types
-```
-
-## test
-```bash
-npm run test
-```
-
-## tag 
-patch/minor/major
-```bash
-npm version patch/tag
-git push
-git push origin --tags
-```
-
-## publish
-```bash
-npm config get registry
-npm adduser
-yarn info @bk/sum@version
-yarn publish
-```
-
-## unpublish
-```bash
-npm unpublish @bk/sum --force
-npm unpublish @bk/sum@version
-```
+## Configuration Files
+- `rollup.config.js`: Configuration file for Rollup.js bundling.
+- `tsconfig.json`: Configuration file for TypeScript.
+- `package.json`: Configuration file for your npm package.
