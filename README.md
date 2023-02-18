@@ -12,7 +12,7 @@ This is a starter kit for building and publishing a TypeScript React project usi
 1. Clone or download the project to your local machine.
 2. Install the necessary dependencies by running `npm install`.
 3. Write your TypeScript React code in the src/ directory.
-4. Build your code for production by running `npm run build`.
+4. Build your code for production by running `npm run build` and `npm run build:types`.
 5. Test your package locally by running `npm link` and `npm run start`.
 6. Publish your package to npm by running `npm publish`.
 
