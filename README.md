@@ -1,3 +1,5 @@
+**See related blog here: [Publish React npm Package with Rollup](https://beking0912.github.io/2023/02/06/Quickstart-with-Rollup/)**
+
 ## How to use
 ```bash
 npm i bk-sum
